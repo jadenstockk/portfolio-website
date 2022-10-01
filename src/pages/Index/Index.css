@@ -1,0 +1,17 @@
+#hero-section .small-heading-1 {
+  margin-bottom: 20px;
+}
+
+#hero-section .description-1 {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.face-name {
+  display: flex;
+  flex-direction: row;
+}
+.face-name img {
+  height: 80px;
+  margin-right: 20px;
+}

@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  color: var(--white);
+  font-family: var(--primary-font);
+}
+
+section {
+  display: flex;
+  padding: 150px 100px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.small-heading-1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: var(--seconary-font);
+  color: var(--orange);
+}
+
+.big-heading-1 {
+  font-size: 70px;
+  color: var(--white);
+}
+
+.big-heading-2 {
+  font-size: 70px;
+  color: var(--slate);
+}
+
+.description-1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--slate);
+  line-height: 35px;
+}
+
+.link {
+  color: var(--orange);
+}
+
+.btn {
+  font-family: var(--seconary-font);
+  font-size: 15px;
+  width: fit-content;
+  color: var(--orange);
+  padding: 20px 30px;
+  border: var(--orange) solid 2px;
+  border-radius: 5px;
+}
+
+:root {
+  --background-color: #0d1b2a;
+
+  --white: #ffffff;
+  --slate: #6b818c;
+  --orange: #f77f00;
+
+  --primary-font: "Inter", sans-serif;
+  --seconary-font: "Noto Sans Mono", monospace;
+}
