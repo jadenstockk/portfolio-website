@@ -12,7 +12,7 @@ body {
 
 section {
   display: flex;
-  padding: 150px 100px;
+  padding: 100px 100px;
 }
 
 h1,
@@ -137,6 +137,10 @@ ul {
     font-size: 14px;
     padding: 15px 25px;
   }
+
+  .mobile-hide {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -183,6 +187,7 @@ ul {
 
 :root {
   --background-color: #0d1b2a;
+  --background-color-light: #1b263b;
   --background-color-transparent: #0d1b2ad0;
 
   --white: #ffffff;

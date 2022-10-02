@@ -1,4 +1,5 @@
 import React from "react";
+import faceImage from "../../../assets/face.png";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
           Hi there. My name is
         </h3>
         <div className="face-name fade-up" style={{ animationDelay: "300ms" }}>
-          <img src={require("./face.png")} alt="" />
+          <img src={faceImage} alt="" />
           <h2 className="big-heading-1">Jaden Stock.</h2>
         </div>
         <h2
@@ -32,7 +33,7 @@ const Hero = () => {
         <a
           className="btn fade-up"
           style={{ animationDelay: "600ms" }}
-          href="#projects"
+          href="/#projects"
         >
           Check out my latest project
         </a>
