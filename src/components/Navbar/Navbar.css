@@ -1,0 +1,37 @@
+#navbar {
+  position: fixed;
+  background: var(--background-color-transparent);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  display: flex;
+  width: 100%;
+  z-index: 10001;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 30px;
+}
+
+.nav-item {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--white);
+  cursor: pointer;
+  margin: 0 15px;
+  transition: 0.3s ease;
+}
+.nav-item:hover {
+  color: var(--orange);
+}
+.nav-item-number {
+  color: var(--orange);
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-items {
+    margin: auto;
+  }
+}

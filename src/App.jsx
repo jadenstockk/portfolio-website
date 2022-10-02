@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Index from "./pages/Index/Index";
 
@@ -19,6 +20,7 @@ function App() {
       <div>
         <Navbar />
         <Index />
+        <Footer />
       </div>
     );
   }

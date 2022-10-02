@@ -1,11 +1,17 @@
 import React from "react";
-import IndexHero from "./components/IndexHero";
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills//Skills";
 import "./Index.css";
 
 const Index = () => {
   return (
     <main>
-      <IndexHero />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
     </main>
   );
 };

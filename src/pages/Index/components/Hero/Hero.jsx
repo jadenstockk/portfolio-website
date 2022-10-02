@@ -1,8 +1,8 @@
 import React from "react";
 
-const IndexHero = () => {
+const Hero = () => {
   return (
-    <section id="hero-section">
+    <section id="hero">
       <div className="wrapper">
         <h3
           className="small-heading-1 fade-up"
@@ -32,7 +32,7 @@ const IndexHero = () => {
         <a
           className="btn fade-up"
           style={{ animationDelay: "600ms" }}
-          href="#contact"
+          href="#projects"
         >
           Check out my latest project
         </a>
@@ -41,4 +41,4 @@ const IndexHero = () => {
   );
 };
 
-export default IndexHero;
+export default Hero;
