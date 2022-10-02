@@ -1,5 +1,6 @@
 # Jaden Stock's Portfolio Website
 I created this website in 2022 to have a space to display my future projects and ideas.
+<img src="https://i.ibb.co/GWjFzwp/Screenshot-2022-10-02-at-23-03-28.png" alt="Screenshot-2022-10-02-at-23-03-28" border="0">
 
 ### 👷‍♂️ Did you design and build this website?
 Yes. I designed and built the entire site by myself. However, I did gather design inspiration from the very talented Brittany Chiang's website https://brittanychiang.com
