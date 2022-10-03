@@ -8,21 +8,21 @@ const Navbar = () => {
         <div className="nav-items">
           <a
             className="nav-item fade-up"
-            href="#about"
+            href="/#about"
             style={{ animationDelay: "50ms" }}
           >
             <span className="nav-item-number">01.</span> About
           </a>
           <a
             className="nav-item fade-up"
-            href="#skills"
+            href="/#skills"
             style={{ animationDelay: "100ms" }}
           >
             <span className="nav-item-number">02.</span> Skills
           </a>
           <a
             className="nav-item fade-up"
-            href="#projects"
+            href="/#projects"
             style={{ animationDelay: "150ms" }}
           >
             <span className="nav-item-number">03.</span> Projects

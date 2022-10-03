@@ -111,6 +111,12 @@ ul {
   background: var(--orange-transparent);
 }
 
+@media screen and (max-width: 850px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 750px) {
   section {
     padding: 100px 50px;
@@ -136,10 +142,6 @@ ul {
   .btn {
     font-size: 14px;
     padding: 15px 25px;
-  }
-
-  .mobile-hide {
-    display: none;
   }
 }
 

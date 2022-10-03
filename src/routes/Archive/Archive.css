@@ -29,3 +29,8 @@
   border-collapse: separate;
   border-spacing: 0 40px;
 }
+
+#archive .project-year {
+  font-family: var(--secondary-font);
+  color: var(--orange);
+}

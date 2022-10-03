@@ -16,14 +16,23 @@ function App() {
     }, 1000);
   }, []);
 
+  const errorElement = (
+    <div style={{ padding: "300px 50px", textAlign: "center" }}>
+      Sorry. It seems like there's been an error. I'm probably working on it
+      right now.
+    </div>
+  );
+
   const router = createBrowserRouter([
     {
       path: "/projects",
       element: <Archive />,
+      errorElement,
     },
     {
       path: "*",
       element: <Index />,
+      errorElement,
     },
   ]);
 

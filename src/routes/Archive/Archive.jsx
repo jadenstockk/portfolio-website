@@ -2,6 +2,8 @@ import React from "react";
 import "./Archive.css";
 import projectList from "../../assets/projects.json";
 import starIcon from "../../assets/star.svg";
+import linkIcon from "../../assets/external-link.svg";
+import githubIcon from "../../assets/github.svg";
 
 const Archive = () => {
   return (
@@ -23,7 +25,7 @@ const Archive = () => {
             {projectList.map((project) => {
               return (
                 <tr className="project-section">
-                  <td>{project.year}</td>
+                  <td className="project-year">{project.year}</td>
                   <td>
                     {project.starred ? (
                       <img
@@ -38,11 +40,33 @@ const Archive = () => {
                   <td className="mobile-hide project-tags">
                     {project.tags.map((tag) => {
                       if (tag) {
-                        return <div className="project-tag">{tag}</div>;
+                        return (
+                          <div className="mobile-hide project-tag">{tag}</div>
+                        );
                       } else {
                         return null;
                       }
                     })}
+                  </td>
+                  <td>
+                    {project.github ? (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <img width="18px" src={githubIcon} alt="" />
+                      </a>
+                    ) : null}
+                    {project.link ? (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <img width="15px" src={linkIcon} alt="" />
+                      </a>
+                    ) : null}
                   </td>
                 </tr>
               );
