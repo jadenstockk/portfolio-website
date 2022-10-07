@@ -14,10 +14,8 @@ function App() {
     ReactGA.initialize("G-J0XEB94HE2");
     ReactGA.pageview(window.location.pathname + window.location.search);
 
-    setTimeout(() => {
-      document.getElementById("loader").style.display = "none";
-      setLoading(false);
-    }, 1000);
+    document.getElementById("loader").style.display = "none";
+    setLoading(false);
   }, []);
 
   const errorElement = (
