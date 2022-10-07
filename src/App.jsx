@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    ReactGA.initialize("UA-000000-01");
+    ReactGA.initialize("G-J0XEB94HE2");
     ReactGA.pageview(window.location.pathname + window.location.search);
 
     setTimeout(() => {
