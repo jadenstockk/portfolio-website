@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Index from "./routes/Index/Index";
+import ReactGA from "react-ga";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Archive from "./routes/Archive/Archive";
@@ -10,6 +11,9 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    ReactGA.initialize("UA-000000-01");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     setTimeout(() => {
       document.getElementById("loader").style.display = "none";
       setLoading(false);
