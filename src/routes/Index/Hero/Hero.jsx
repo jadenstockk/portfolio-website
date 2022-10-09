@@ -26,7 +26,7 @@ const Hero = () => {
           style={{ animationDelay: "500ms" }}
         >
           I'm currently making my way through 10th grade in high school. I have
-          a passsion for software develpement and I'm currently working on my
+          a passion for software development and I'm currently working on my
           full-stack development skills. I've built this website to showcase my
           development journey.
         </p>
