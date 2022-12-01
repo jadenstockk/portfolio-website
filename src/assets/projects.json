@@ -1,5 +1,20 @@
 [
     {
+        "name": "New Year Bot",
+        "description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
+        "github": null,
+        "link": "https://newyearbot.weebly.com",
+        "year": "2022",
+        "date": "2022-09-01",
+        "starred": true,
+        "tags": [
+            "Node.js",
+            "Discord.js",
+            "Express",
+            "Next.js"
+        ]
+    },
+    {
         "name": "Portfolio Website",
         "description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
         "github": "https://github.com/jadenstockk/portfolio-website",
@@ -28,14 +43,13 @@
     },
     {
         "name": "Helpsie",
-        "description": "A Discord bot that I worked on for quite a while.",
+        "description": "A multipurpose Discord bot that I worked on for quite a while.",
         "github": "https://github.com/jadenstockk/helpsie",
         "link": null,
         "year": "2021",
         "date": "2022-13-01",
         "starred": true,
         "tags": [
-            "Discord API",
             "Node.js",
             "Discord.js",
             "Express"
