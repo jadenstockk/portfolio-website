@@ -18,7 +18,7 @@
         "name": "Portfolio Website",
         "description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
         "github": "https://github.com/jadenstockk/portfolio-website",
-        "link": null,
+        "link": "https://jadenstock.com",
         "year": "2022",
         "date": "2022-09-01",
         "starred": true,
@@ -28,13 +28,13 @@
         ]
     },
     {
-        "name": "Untitled",
+        "name": "Untitled...",
         "description": "A design concept I've just recently started working on.",
         "github": null,
         "link": null,
         "year": "2022",
         "date": "2022-13-01",
-        "starred": true,
+        "starred": false,
         "tags": [
             "React",
             "Node.js",
