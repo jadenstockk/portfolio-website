@@ -1,58 +1,42 @@
 [
-    {
-        "name": "New Year Bot",
-        "description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
-        "github": null,
-        "link": "https://newyearbot.weebly.com",
-        "year": "2022",
-        "date": "2022-09-01",
-        "starred": true,
-        "tags": [
-            "Node.js",
-            "Discord.js",
-            "Express",
-            "Next.js"
-        ]
-    },
-    {
-        "name": "Portfolio Website",
-        "description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
-        "github": "https://github.com/jadenstockk/portfolio-website",
-        "link": "https://jadenstock.com",
-        "year": "2022",
-        "date": "2022-09-01",
-        "starred": true,
-        "tags": [
-            "React",
-            "Node.js"
-        ]
-    },
-    {
-        "name": "Untitled...",
-        "description": "A design concept I've just recently started working on.",
-        "github": null,
-        "link": null,
-        "year": "2022",
-        "date": "2022-13-01",
-        "starred": false,
-        "tags": [
-            "React",
-            "Node.js",
-            "Express"
-        ]
-    },
-    {
-        "name": "Helpsie",
-        "description": "A multipurpose Discord bot that I worked on for quite a while.",
-        "github": "https://github.com/jadenstockk/helpsie",
-        "link": null,
-        "year": "2021",
-        "date": "2022-13-01",
-        "starred": true,
-        "tags": [
-            "Node.js",
-            "Discord.js",
-            "Express"
-        ]
-    }
+	{
+		"name": "New Year Bot",
+		"description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
+		"github": "https://github.com/jadenstockk/newyear",
+		"link": "https://newyearbot.weebly.com",
+		"year": "2022",
+		"date": "2022-12-15",
+		"starred": true,
+		"tags": ["Node.js", "Discord.js", "TypeScript"]
+	},
+	{
+		"name": "Portfolio Website",
+		"description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
+		"github": "https://github.com/jadenstockk/portfolio-website",
+		"link": "https://jadenstock.com",
+		"year": "2022",
+		"date": "2022-09-01",
+		"starred": true,
+		"tags": ["React", "Node.js"]
+	},
+	{
+		"name": "Untitled...",
+		"description": "A design concept I've just recently started working on.",
+		"github": null,
+		"link": null,
+		"year": "2022",
+		"date": "2022-09-10",
+		"starred": false,
+		"tags": ["React", "Node.js", "Express"]
+	},
+	{
+		"name": "Helpsie",
+		"description": "A multipurpose Discord bot that I worked on for quite a while.",
+		"github": "https://github.com/jadenstockk/helpsie",
+		"link": null,
+		"year": "2021",
+		"date": "2021-12-10",
+		"starred": true,
+		"tags": ["Node.js", "Discord.js", "Express"]
+	}
 ]
