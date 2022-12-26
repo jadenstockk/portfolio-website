@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Gift Redeem Website",
+		"description": "A little web app I made to give more creative gifts to my family for Christmas. One of the gifts allows them to go around the scanning QR codes with clues to find their hidden gift.",
+		"github": "https://github.com/jadenstockk/newyear",
+		"link": "https://redeem.jadenstock.com",
+		"year": "2022",
+		"date": "2022-12-25",
+		"starred": true,
+		"tags": ["Node.js", "TypeScript", "Next.js", "TailwindCSS"]
+	},
+	{
 		"name": "New Year Bot",
 		"description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
 		"github": "https://github.com/jadenstockk/newyear",
@@ -17,7 +27,7 @@
 		"year": "2022",
 		"date": "2022-09-01",
 		"starred": true,
-		"tags": ["React", "Node.js"]
+		"tags": ["React", "Node.js", "JavaScript"]
 	},
 	{
 		"name": "Untitled...",
@@ -27,7 +37,7 @@
 		"year": "2022",
 		"date": "2022-09-10",
 		"starred": false,
-		"tags": ["React", "Node.js", "Express"]
+		"tags": ["React", "Node.js", "JavaScript", "Express"]
 	},
 	{
 		"name": "Helpsie",
@@ -37,6 +47,6 @@
 		"year": "2021",
 		"date": "2021-12-10",
 		"starred": true,
-		"tags": ["Node.js", "Discord.js", "Express"]
+		"tags": ["Node.js", "Discord.js", "JavaScript", "Express"]
 	}
 ]
