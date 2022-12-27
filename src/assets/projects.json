@@ -46,7 +46,7 @@
 		"link": null,
 		"year": "2021",
 		"date": "2021-12-10",
-		"starred": true,
+		"starred": false,
 		"tags": ["Node.js", "Discord.js", "JavaScript", "Express"]
 	}
 ]
