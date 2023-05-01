@@ -1,168 +1,172 @@
 #hero {
-  padding-top: 10vh;
-  padding-bottom: 0;
-  height: 80vh;
-  min-height: 600px;
+	padding-top: 10vh;
+	padding-bottom: 0;
+	height: 80vh;
+	min-height: 600px;
 }
 
 #hero .small-heading-1 {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 #hero .description-1 {
-  max-width: 700px;
-  margin-bottom: 40px;
+	max-width: 700px;
+	margin-bottom: 40px;
 }
 
 .face-name {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 .face-name img {
-  height: 80px;
-  margin-right: 20px;
+	height: 80px;
+	margin-right: 20px;
 }
 
 #about a {
-  color: var(--orange);
+	color: var(--orange);
 }
 
 .skills-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #skills h3 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+#skills a {
+	color: inherit;
 }
 
 .skill-item {
-  margin-top: 5px;
-  font-family: var(--secondary-font);
+	margin-top: 5px;
+	font-family: var(--secondary-font);
 }
 .skill-item::before {
-  content: url("../../assets/arrow.svg");
-  display: inline-block;
-  width: 10px;
-  height: 20px;
-  margin-right: 20px;
+	content: url("../../assets/arrow.svg");
+	display: inline-block;
+	width: 10px;
+	height: 20px;
+	margin-right: 20px;
 }
 
 .skill-icon {
-  margin-right: 10px;
-  height: 20px;
-  width: 20px;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
 }
 
 .section-number {
-  font-family: var(--secondary-font);
-  color: var(--orange);
-  font-size: 20px;
-  margin-right: 10px;
+	font-family: var(--secondary-font);
+	color: var(--orange);
+	font-size: 20px;
+	margin-right: 10px;
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 1rem;
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background: var(--background-color-light);
-  color: var(--white);
-  padding: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  box-shadow: rgba(0, 0, 0, 0.146) 2px 2px 2px;
-  height: 150px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background: var(--background-color-light);
+	color: var(--white);
+	padding: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.146) 2px 2px 2px;
+	height: 150px;
 }
 .project:hover {
-  transform: translate(0, -5px);
-  box-shadow: rgba(0, 0, 0, 0.146) 2px 10px 5px;
-  color: var(--orange);
+	transform: translate(0, -5px);
+	box-shadow: rgba(0, 0, 0, 0.146) 2px 10px 5px;
+	color: var(--orange);
 }
 
 .project h3 {
-  display: flex;
+	display: flex;
 }
 
 .project h3 img {
-  margin-left: 5px;
-  vertical-align: middle;
+	margin-left: 5px;
+	vertical-align: middle;
 }
 
 .project p {
-  margin-top: 15px;
-  font-size: 15px;
-  color: var(--slate);
+	margin-top: 15px;
+	font-size: 15px;
+	color: var(--slate);
 }
 
 #projects .project-tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
 }
 
 #projects .project-tag {
-  font-size: 12px;
-  color: var(--slate);
-  font-family: var(--secondary-font);
-  margin-right: 10px;
+	font-size: 12px;
+	color: var(--slate);
+	font-family: var(--secondary-font);
+	margin-right: 10px;
 }
 
 #projects .btn {
-  margin-top: 30px;
-  padding: 5px 10px;
-  align-self: center;
+	margin-top: 30px;
+	padding: 5px 10px;
+	align-self: center;
 }
 
 #contact {
-  text-align: center;
-  padding-bottom: 200px;
+	text-align: center;
+	padding-bottom: 200px;
 }
 
 #contact p {
-  max-width: 500px;
-  margin: 20px auto;
+	max-width: 500px;
+	margin: 20px auto;
 }
 
 #contact h2 {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 #contact .btn {
-  margin: 10px auto;
-  padding: 15px 30px;
+	margin: 10px auto;
+	padding: 15px 30px;
 }
 
 @media screen and (max-width: 750px) {
-  .face-name img {
-    height: 60px;
-    margin-right: 15px;
-  }
+	.face-name img {
+		height: 60px;
+		margin-right: 15px;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .face-name img {
-    height: 50px;
-    margin-right: 10px;
-  }
+	.face-name img {
+		height: 50px;
+		margin-right: 10px;
+	}
 }
 
 @media screen and (max-width: 355px) {
-  .face-name img {
-    height: 40px;
-    margin-right: 5px;
-  }
+	.face-name img {
+		height: 40px;
+		margin-right: 5px;
+	}
 }

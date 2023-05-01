@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Angel Paws Website",
+		"description": "A website I built for the non-profit organisation Angel Paws Therapy Dogs.",
+		"github": null,
+		"link": "https://angelpaws.org.za",
+		"year": "2023",
+		"date": "2023-04-23",
+		"starred": true,
+		"tags": ["TypeScript", "Next.js", "TailwindCSS", "Supabase"]
+	},
+	{
 		"name": "Gift Redeem Website",
 		"description": "A little web app I made to give more creative gifts to my family for Christmas.",
 		"github": "https://github.com/jadenstockk/newyear",
@@ -7,7 +17,7 @@
 		"year": "2022",
 		"date": "2022-12-25",
 		"starred": true,
-		"tags": ["Node.js", "TypeScript", "Next.js", "TailwindCSS"]
+		"tags": ["TypeScript", "Next.js", "TailwindCSS"]
 	},
 	{
 		"name": "New Year Bot",
@@ -26,7 +36,7 @@
 		"link": "https://jadenstock.com",
 		"year": "2022",
 		"date": "2022-09-01",
-		"starred": true,
+		"starred": false,
 		"tags": ["React", "Node.js", "JavaScript"]
 	},
 	{
@@ -37,7 +47,7 @@
 		"year": "2022",
 		"date": "2022-09-10",
 		"starred": false,
-		"tags": ["React", "Node.js", "JavaScript", "Express"]
+		"tags": ["JavaScript", "React", "Node.js", "Express"]
 	},
 	{
 		"name": "Helpsie",
@@ -47,6 +57,6 @@
 		"year": "2021",
 		"date": "2021-12-10",
 		"starred": false,
-		"tags": ["Node.js", "Discord.js", "JavaScript", "Express"]
+		"tags": ["JavaScript", "Node.js", "Discord.js", "Express.js"]
 	}
 ]

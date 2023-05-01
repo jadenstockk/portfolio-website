@@ -12,49 +12,45 @@ const About = () => {
 					<span className="section-number">01.</span> About Me
 				</h2>
 				<p className="description-1">
-					Believe it or not my coding journey actually started off in 2016 when
-					I was 10 years old according to my{" "}
+					I started learning to code when I was 10 years old on the educational
+					coding platform,{" "}
 					<a href={scratchLink} target="_blank" rel="noopener noreferrer">
-						Scratch profile
+						Scratch
 					</a>
-					. I owe a lot of my interest in coding to the educational coding
-					platform, Scratch. It gave me a good foundation into how variables,
-					loops, and functions work. I remember trying some Python a few years
-					into playing around in Scratch. But that didn't get further than print
-					statements and while loops. It wasn't until 2020 that my coding
-					journey really took off.
-				</p>
-				<p className="description-1">
-					During the pandemic, I got onto the chat platform{" "}
+					. However, my real coding experience started when I began playing
+					around with{" "}
 					<a href={discordLink} target="_blank" rel="noopener noreferrer">
 						Discord
-					</a>{" "}
-					in an attempt to get some social contact. I created my own "server" in
-					which my friends could join. I found fascination and enjoyment in
-					customizing my server and developing it into a space for me and my
-					friends to enjoy. I wanted to go even further and create my own
-					Discord bot which could preform fancy commands and do cool things. It
-					was then that I started to learn how to make my own Discord bots
-					through Discord's API using the Discord.js framework. I spent
-					countless hours working on bots and watching tutorials. In 2021, I
-					created a{" "}
+					</a>
+					's API with the Discord.js framework. This lead me to create{" "}
 					<a href={helpsieLink} target="_blank" rel="noopener noreferrer">
-						public bot
-					</a>{" "}
-					for other Discord users to add to their servers. Through all of this,
-					I had accidentally taught myself JavaScript, Node.js, MongoDB, and
-					soon enough I had also covered basic HTML, CSS, Express.js and also
-					had skills in how to set up a hosting platform and use the Linux
-					terminal.
+						Helpsie
+					</a>
+					, a public Discord bot, for other Discord users to use. Through all of
+					this, I had accidentally taught myself JavaScript, Node.js, MongoDB,
+					and soon enough I had also covered basic HTML, CSS, Express.js and
+					also had skills in how to host my code and use the Linux terminal.
 				</p>
 				<p className="description-1">
-					Since putting my Discord bot life behind me, I have been working on my
-					full-stack development skills. More specifically, broadening my
-					knowledge of the web framework, React, and as well as NextJS. I am
-					also currently doing my I.T. course at school which is teaching me
-					Java. I'm keen to continue expanding my knowledge on all of these
-					languages and frameworks. I'm wanting to get into IOS Development with
-					Swift and SwiftUI as well as SQL on the database side of things.
+					I am now a somewhat experienced React and Next.js web developer with a
+					passion for UI design as well. I am also learning Java at my school.
+					I'm very keen to continue learning and plan to continue working on
+					projects to improve my skills.
+				</p>
+				<p className="description-1">
+					Taking a step back from programming, I am also very passionate about
+					music. I have been playing the piano for almost 11 years now and I'm
+					so grateful to have had the opportunity to learn how to play. When I
+					was in grade 3, my parents bought me a small CD player with two
+					speakers. Being the little entrepreneur I was, I began DJing at my
+					friends parties which quickly turned out to be very profitable. I
+					began upgrading my equipment and eventually managed to buy myself a
+					laptop. It was with this laptop that I began learning how to produce
+					music and record my friends' vocals. This very fortunate background of
+					mine has led me to be very well-versed in music theory, music
+					production, and audio engineering, and allowed me to be a dedicated
+					music student and sound coordinator for concerts and events at my
+					school.
 				</p>
 			</div>
 		</section>

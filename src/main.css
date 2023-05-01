@@ -1,202 +1,202 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background: var(--background-color);
-  color: var(--white);
-  font-family: var(--primary-font);
+	margin: 0;
+	padding: 0;
+	background: var(--background-color);
+	color: var(--white);
+	font-family: var(--primary-font);
 }
 
 section {
-  display: flex;
-  padding: 100px 100px;
+	display: flex;
+	padding: 100px 100px;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 a,
 a:hover,
 a:active,
 a:visited {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 1000px;
-  margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	margin: auto;
 }
 
 .small-heading-1 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  font-family: var(--secondary-font);
-  color: var(--orange);
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	font-family: var(--secondary-font);
+	color: var(--orange);
 }
 
 .medium-heading-1 {
-  font-size: 25px;
-  font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .big-heading-1 {
-  font-size: 70px;
-  font-weight: 700;
-  color: var(--white);
+	font-size: 70px;
+	font-weight: 700;
+	color: var(--white);
 }
 
 .big-heading-2 {
-  font-size: 70px;
-  font-weight: 700;
-  color: var(--slate);
+	font-size: 70px;
+	font-weight: 700;
+	color: var(--slate);
 }
 
 .description-1 {
-  font-size: 18px;
-  font-weight: 300;
-  color: var(--slate);
-  line-height: 30px;
+	font-size: 18px;
+	font-weight: 300;
+	color: var(--slate);
+	line-height: 30px;
 }
 
 .description-2 {
-  font-size: 15px;
-  font-weight: 300;
-  color: var(--slate);
-  line-height: 30px;
+	font-size: 15px;
+	font-weight: 300;
+	color: var(--slate);
+	line-height: 30px;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .link {
-  color: var(--orange);
+	color: var(--orange);
 }
 
 .btn {
-  font-family: var(--secondary-font);
-  font-size: 15px;
-  width: fit-content;
-  color: var(--orange);
-  padding: 20px 30px;
-  border: var(--orange) solid 2px;
-  border-radius: 5px;
-  transition: 0.3s ease;
+	font-family: var(--secondary-font);
+	font-size: 15px;
+	width: fit-content;
+	color: var(--orange);
+	padding: 20px 30px;
+	border: var(--orange) solid 2px;
+	border-radius: 5px;
+	transition: 0.3s ease;
 }
 .btn:hover {
-  background: var(--orange-transparent);
+	background: var(--orange-transparent);
 }
 
 @media screen and (max-width: 850px) {
-  .mobile-hide {
-    display: none;
-  }
+	.mobile-hide {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 750px) {
-  section {
-    padding: 100px 50px;
-  }
+	section {
+		padding: 100px 50px;
+	}
 
-  .small-heading-1 {
-    font-size: 16px;
-  }
+	.small-heading-1 {
+		font-size: 16px;
+	}
 
-  .big-heading-1 {
-    font-size: 50px;
-  }
+	.big-heading-1 {
+		font-size: 50px;
+	}
 
-  .big-heading-2 {
-    font-size: 50px;
-  }
+	.big-heading-2 {
+		font-size: 50px;
+	}
 
-  .description-1 {
-    font-size: 18px;
-    line-height: 30px;
-  }
+	.description-1 {
+		font-size: 18px;
+		line-height: 30px;
+	}
 
-  .btn {
-    font-size: 14px;
-    padding: 15px 25px;
-  }
+	.btn {
+		font-size: 14px;
+		padding: 15px 25px;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  section {
-    padding: 100px 25px;
-  }
+	section {
+		padding: 100px 25px;
+	}
 
-  .small-heading-1 {
-    font-size: 14px;
-  }
+	.small-heading-1 {
+		font-size: 14px;
+	}
 
-  .big-heading-1 {
-    font-size: 40px;
-  }
+	.big-heading-1 {
+		font-size: 40px;
+	}
 
-  .big-heading-2 {
-    font-size: 40px;
-  }
+	.big-heading-2 {
+		font-size: 40px;
+	}
 
-  .description-1 {
-    font-size: 16px;
-    line-height: 25px;
-  }
+	.description-1 {
+		font-size: 16px;
+		line-height: 25px;
+	}
 
-  .btn {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
+	.btn {
+		font-size: 12px;
+		padding: 10px 20px;
+	}
 }
 
 @media screen and (max-width: 355px) {
-  section {
-    padding: 100px 15px;
-  }
+	section {
+		padding: 100px 15px;
+	}
 
-  .big-heading-1 {
-    font-size: 35px;
-  }
+	.big-heading-1 {
+		font-size: 35px;
+	}
 
-  .big-heading-2 {
-    font-size: 35px;
-  }
+	.big-heading-2 {
+		font-size: 35px;
+	}
 }
 
 :root {
-  --background-color: #0d1b2a;
-  --background-color-light: #1b263b;
-  --background-color-transparent: #0d1b2ad0;
+	--background-color: #0d1b2a;
+	--background-color-light: #1b263b;
+	--background-color-transparent: #0d1b2ad0;
 
-  --white: #ffffff;
-  --slate: #6b818c;
-  --orange: #f77f00;
-  --orange-transparent: #f7800020;
+	--white: #ffffff;
+	--slate: #6b818c;
+	--orange: #f77f00;
+	--orange-transparent: #f7800020;
 
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Noto Sans Mono", monospace;
+	--primary-font: "Inter", sans-serif;
+	--secondary-font: "Noto Sans Mono", monospace;
 }
