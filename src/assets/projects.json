@@ -1,62 +1,72 @@
 [
-	{
-		"name": "Angel Paws Website",
-		"description": "A website I built for the non-profit organisation Angel Paws Therapy Dogs.",
-		"github": null,
-		"link": "https://angelpaws.org.za",
-		"year": "2023",
-		"date": "2023-04-23",
-		"starred": true,
-		"tags": ["TypeScript", "Next.js", "TailwindCSS", "Supabase"]
-	},
-	{
-		"name": "Gift Redeem Website",
-		"description": "A little web app I made to give more creative gifts to my family for Christmas.",
-		"github": "https://github.com/jadenstockk/newyear",
-		"link": "https://redeem.jadenstock.com",
-		"year": "2022",
-		"date": "2022-12-25",
-		"starred": true,
-		"tags": ["TypeScript", "Next.js", "TailwindCSS"]
-	},
-	{
-		"name": "New Year Bot",
-		"description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
-		"github": "https://github.com/jadenstockk/newyear",
-		"link": "https://newyearbot.weebly.com",
-		"year": "2022",
-		"date": "2022-12-15",
-		"starred": true,
-		"tags": ["Node.js", "Discord.js", "TypeScript"]
-	},
-	{
-		"name": "Portfolio Website",
-		"description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
-		"github": "https://github.com/jadenstockk/portfolio-website",
-		"link": "https://jadenstock.com",
-		"year": "2022",
-		"date": "2022-09-01",
-		"starred": false,
-		"tags": ["React", "Node.js", "JavaScript"]
-	},
-	{
-		"name": "Untitled...",
-		"description": "A design concept I've just recently started working on.",
-		"github": null,
-		"link": null,
-		"year": "2022",
-		"date": "2022-09-10",
-		"starred": false,
-		"tags": ["JavaScript", "React", "Node.js", "Express"]
-	},
-	{
-		"name": "Helpsie",
-		"description": "A multipurpose Discord bot that I worked on for quite a while.",
-		"github": "https://github.com/jadenstockk/helpsie",
-		"link": null,
-		"year": "2021",
-		"date": "2021-12-10",
-		"starred": false,
-		"tags": ["JavaScript", "Node.js", "Discord.js", "Express.js"]
-	}
+  {
+    "name": "QR Quest",
+    "description": "An MVP of a web app I'm working on that allows users to create interactive and engaging scavenger hunts.",
+    "github": null,
+    "link": "https://qr-quest.jadenstock.com/",
+    "year": "2024",
+    "date": "2024-03-20",
+    "starred": true,
+    "tags": ["Next.js", "TailwindCSS", "Postgres", "Drizzle ORM"]
+  },
+  {
+    "name": "Angel Paws Website",
+    "description": "A website I built for the non-profit organisation Angel Paws Therapy Dogs.",
+    "github": null,
+    "link": "https://angelpaws.org.za",
+    "year": "2023",
+    "date": "2023-04-23",
+    "starred": true,
+    "tags": ["TypeScript", "Next.js", "TailwindCSS", "Supabase"]
+  },
+  {
+    "name": "Gift Redeem Website",
+    "description": "A little web app I made to give more creative gifts to my family for Christmas.",
+    "github": "https://github.com/jadenstockk/newyear",
+    "link": "https://redeem.jadenstock.com",
+    "year": "2022",
+    "date": "2022-12-25",
+    "starred": true,
+    "tags": ["TypeScript", "Next.js", "TailwindCSS"]
+  },
+  {
+    "name": "New Year Bot",
+    "description": "A Discord bot that adds cool features such as a New Years countdown to your Discord server (changes coming soon).",
+    "github": "https://github.com/jadenstockk/newyear",
+    "link": "https://newyearbot.weebly.com",
+    "year": "2022",
+    "date": "2022-12-15",
+    "starred": true,
+    "tags": ["Node.js", "Discord.js", "TypeScript"]
+  },
+  {
+    "name": "Portfolio Website",
+    "description": "This website you're looking at right now. Created for the purpose of showcasing my projects and ideas",
+    "github": "https://github.com/jadenstockk/portfolio-website",
+    "link": "https://jadenstock.com",
+    "year": "2022",
+    "date": "2022-09-01",
+    "starred": false,
+    "tags": ["React", "Node.js", "JavaScript"]
+  },
+  {
+    "name": "Untitled...",
+    "description": "A design concept I've just recently started working on.",
+    "github": null,
+    "link": null,
+    "year": "2022",
+    "date": "2022-09-10",
+    "starred": false,
+    "tags": ["JavaScript", "React", "Node.js", "Express"]
+  },
+  {
+    "name": "Helpsie",
+    "description": "A multipurpose Discord bot that I worked on for quite a while.",
+    "github": "https://github.com/jadenstockk/helpsie",
+    "link": null,
+    "year": "2021",
+    "date": "2021-12-10",
+    "starred": false,
+    "tags": ["JavaScript", "Node.js", "Discord.js", "Express.js"]
+  }
 ]
