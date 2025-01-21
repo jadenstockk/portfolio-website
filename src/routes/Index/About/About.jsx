@@ -12,32 +12,10 @@ const About = () => {
           <span className="section-number">01.</span> About Me
         </h2>
         <p className="description-1">
-          I am an experienced Next.js web developer with a passion for UI design
-          as well. I also have basic experience working with Java. I'm very keen
-          to continue learning and plan to continue working on projects to
-          improve my skills as I continue on to university next year. I have
-          been programming with Javascript and Typescript for almost 4 years now
-          and have worked on a variety of projects, ranging from simple websites
-          to more complex web applications. Through my experience, I have
-          developed a strong understanding of a variety of technologies and
-          frameworks, including React, Next.js, and Node.js. I am also very
-          familiar with Git and have experience working with databases such as
-          MongoDB and Postgres. I am always looking to learn new things and
-          improve my skills, and I am very excited to continue working on
-          projects and learning new technologies.
+        I am a skilled full-stack developer with over 5 years of experience in JavaScript and TypeScript, specializing in building dynamic and scalable web applications with Next.js, React, and Node.js. My expertise extends to database technologies like Postgres as well as MongoDB, and I am proficient with version control tools such as Git. I am passionate about clean UI design and continually seek opportunities to expand my technical knowledge through hands-on projects.
         </p>
         <p className="description-1">
-          Taking a step back from programming, I am also very passionate about
-          music. I have been playing the piano for almost 12 years now and I'm
-          so grateful to have had the opportunity to learn how to play. In grade
-          4, I was able to buy myself a laptop with money I earned from DJ-ing
-          at my friends' parties. It was with this laptop that I began learning
-          how to produce music and record my friends' vocals. This very
-          fortunate background of mine has led me to be very well-versed in
-          music theory, music production, and audio engineering, and allowed me
-          to be a dedicated music student and sound coordinator for concerts and
-          events at my school. It was also that laptop that led me to discover
-          the world of programming and web development, and I am very grateful.
+        Beyond development, I have a deep-rooted passion for music. With over 12 years of piano experience and a background in music production and audio engineering, I’ve combined creativity with technical skill. My journey began with DJ-ing and producing music, eventually sparking my interest in programming and web development. This unique blend of skills drives me to innovate and create meaningful solutions in both tech and music.
         </p>
       </div>
     </section>

@@ -25,11 +25,7 @@ const Hero = () => {
           className="description-1 fade-up"
           style={{ animationDelay: "500ms" }}
         >
-          I'm currently making my way through my final year of high school in
-          South Africa. I have a passion for software development, design, and
-          music. I'm always learning and see great value in being open to new
-          perspectives and ideas, whether it be in programming, music, or life
-          in general.
+         I’m a first-year computer science student with a passion for software development and design. I thrive on learning and embraceing new perspectives and ideas. My goal is to continuously grow, combining technical skills with creative expression to solve meaningful problems.
         </p>
         <a
           className="btn fade-up"

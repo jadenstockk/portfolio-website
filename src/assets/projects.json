@@ -1,7 +1,17 @@
 [
   {
+    "name": "Coco Blue Website",
+    "description": "A fully featured e-commerce website for a small business, Coco Blue. Designed and developed entirely from scratch.",
+    "github": null,
+    "link": null,
+    "year": "2025",
+    "date": "2025-01-21",
+    "starred": true,
+    "tags": ["Next.js", "Postgres", "TRPC", "TailwindCSS"]
+  },
+  {
     "name": "QR Quest",
-    "description": "An MVP of a web app I'm working on that allows users to create interactive and engaging scavenger hunts.",
+    "description": "A minimum viable product of a web app I'm working on that allows users to create interactive and engaging scavenger hunts.",
     "github": null,
     "link": "https://qr-quest.jadenstock.com/",
     "year": "2024",
@@ -26,7 +36,7 @@
     "link": "https://redeem.jadenstock.com",
     "year": "2022",
     "date": "2022-12-25",
-    "starred": true,
+    "starred": false,
     "tags": ["TypeScript", "Next.js", "TailwindCSS"]
   },
   {
@@ -36,7 +46,7 @@
     "link": "https://newyearbot.weebly.com",
     "year": "2022",
     "date": "2022-12-15",
-    "starred": true,
+    "starred": false,
     "tags": ["Node.js", "Discord.js", "TypeScript"]
   },
   {
