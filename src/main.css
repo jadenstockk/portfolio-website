@@ -104,6 +104,7 @@ ul {
 	color: var(--orange);
 	padding: 20px 30px;
 	border: var(--orange) solid 2px;
+	background: transparent;
 	border-radius: 5px;
 	transition: 0.3s ease;
 }

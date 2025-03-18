@@ -25,7 +25,7 @@ const Hero = () => {
           className="description-1 fade-up"
           style={{ animationDelay: "500ms" }}
         >
-         I’m a first-year computer science student with a passion for software development and design. I thrive on learning and embraceing new perspectives and ideas. My goal is to continuously grow, combining technical skills with creative expression to solve meaningful problems.
+         I craft custom websites and digital solutions, blending creativity with clean, user-friendly experiences to bring your ideas to life. Let’s connect!
         </p>
         <div style={{
           display: "flex",
@@ -39,8 +39,9 @@ const Hero = () => {
         >
           Check out my latest project
         </a>
-        <a href="mailto:jaden@jadenstock.com"  style={{ animationDelay: "700ms" }} className="btn fade-up">
-					Email me
+        <a style={{ animationDelay: "600ms" }}
+          href="/#contact" className="btn fade-up">
+					Contact me
 				</a>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import ContactForm from "./ContactForm"
 
 const Contact = () => {
 	return (
@@ -6,12 +7,11 @@ const Contact = () => {
 			<div className="wrapper">
 				<h2 className="big-heading-1">Let's get in touch</h2>
 				<p className="description-1">
-				I’m always open to new opportunities and collaborations — feel free to reach out, even if it’s just to say hello!
+				I'd love to hear about your project or answer any questions you have — even if it’s just to say hello!
 				</p>
-				<a href="mailto:jaden@jadenstock.com" className="btn">
-					Email me
-				</a>
+				<ContactForm />
 			</div>
+			
 		</section>
 	)
 }
