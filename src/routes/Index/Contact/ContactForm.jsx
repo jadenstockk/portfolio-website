@@ -31,7 +31,8 @@ export default function ContactForm() {
 
   if (result === "Form Submitted Successfully!") {
     return (
-      <div className="wrapper" style={{ textAlign: 'center', padding: '50px 20px', color: 'var(--white)' }}>
+      <div style={{ textAlign: 'center', padding: '50px 20px', color: 'var(--white)', marginLeft: "auto",
+        marginRight: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
 
         <h3 style={{ marginBottom: '10px' }}>Thank you for reaching out!</h3>
         <p style={{ marginTop: '0' }}>Your message has been sent and I will make sure to be in touch as soon as possible.</p>
