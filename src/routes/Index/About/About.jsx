@@ -1,9 +1,5 @@
-import React from "react";
 
 const About = () => {
-  const scratchLink = "https://scratch.mit.edu/users/Magicmanthedj/";
-  const discordLink = "https://discord.com/";
-  const helpsieLink = "https://github.com/jadenstockk/helpsie";
 
   return (
     <section id="about" className="fade-up" style={{ animationDelay: "700ms" }}>

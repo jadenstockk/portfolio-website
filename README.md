@@ -9,7 +9,7 @@ Yes. I designed and built the entire site by myself. However, I did gather desig
 
 ### 🚀 Can I use this for my own website?
 
-Yes, but **make sure** to provide me with credit. Also keep in mind that the code is messy as I considered as I didn't intend to make it particularly readable by other developers.
+Yes, but **make sure** to provide me with credit. Also keep in mind that the code is messy!
 
 ### 🙋 I have a question or concern
 

@@ -1,7 +1,17 @@
 [
   {
+    "name": "Stellenbosch CS Website",
+    "description": "🥇 Winning entry of the Stellenbosch University Developers Society's 2026 Div and Conquer Hackathon. A fully redesigned website for the Computer Science department.",
+    "github": "https://github.com/jadenstockk/su-cs-website",
+    "link": "https://cs-sun.jadenstock.com/",
+    "year": "2026",
+    "date": "2026-03-12",
+    "starred": true,
+    "tags": ["Next.js", "TailwindCSS"]
+  },
+  {
     "name": "Coco Blue Website",
-    "description": "A fully featured e-commerce website for a small business, Coco Blue. Designed and developed entirely from scratch.",
+    "description": "A fully featured e-commerce platform for a small business, Coco Blue. Both frotend and backend designed and developed entirely from scratch.",
     "github": null,
     "link": "https://cocoblue.co.za/",
     "year": "2025",
@@ -11,7 +21,7 @@
   },
   {
     "name": "QR Quest",
-    "description": "A minimum viable product of a web app I'm working on that allows users to create interactive and engaging scavenger hunts.",
+    "description": "An MVP of a web app I'm working on that allows users to create interactive and engaging scavenger hunts.",
     "github": null,
     "link": "https://qr-quest.jadenstock.com/",
     "year": "2024",
@@ -58,16 +68,6 @@
     "date": "2022-09-01",
     "starred": false,
     "tags": ["React", "Node.js", "JavaScript"]
-  },
-  {
-    "name": "Untitled...",
-    "description": "A design concept I've just recently started working on.",
-    "github": null,
-    "link": null,
-    "year": "2022",
-    "date": "2022-09-10",
-    "starred": false,
-    "tags": ["JavaScript", "React", "Node.js", "Express"]
   },
   {
     "name": "Helpsie",

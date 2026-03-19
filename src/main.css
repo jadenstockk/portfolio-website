@@ -72,6 +72,7 @@ ul {
 	font-size: 18px;
 	font-weight: 300;
 	color: var(--slate);
+	text-wrap: pretty;
 	line-height: 30px;
 }
 
