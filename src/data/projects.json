@@ -1,0 +1,392 @@
+[
+	{
+		"slug": "stellenbosch-cs-website",
+		"name": "Stellenbosch CS Website",
+		"description": "Winning entry in Stellenbosch University Developers Society's 2026 Div and Conquer Hackathon. A complete redesign for the Computer Science department.",
+		"github": "https://github.com/jadenstockk/su-cs-website",
+		"link": "https://cs-sun.jadenstock.com/",
+		"year": "2026",
+		"date": "2026-03-12",
+		"starred": true,
+		"tags": [
+			"UX Redesign",
+			"Accessibility",
+			"Content Architecture",
+			"Performance"
+		],
+		"caseStudy": {
+			"summary": "A hackathon redesign that became a full modern department platform, combining strong visual direction, multilingual support, SEO foundations, and production-ready CMS integration.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "This project started in a Stellenbosch University Developer's Society hackathon to redesign the Computer Science Department's outdated website. The goal was to create a modern, mobile-friendly experience that felt credible, clear, and useful to prospective students, current students, staff, and alumni."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Design and build process"
+				},
+				{
+					"type": "paragraph",
+					"text": "I started in Figma to shape the UI direction and created a custom hero video loop using Stellenbosch reference imagery and AI-generated clips. Once that visual system was established, I built the platform in Next.js and Tailwind with ShadCN UI, which made it easy to keep components consistent while still customising the experience."
+				},
+				{
+					"type": "image",
+					"src": "https://github.com/user-attachments/assets/93dd7e71-4f1c-4bbe-8a48-156357667bd9",
+					"alt": "Figma UI planning and concept exploration",
+					"caption": "Early UI planning and design direction work."
+				},
+				{
+					"type": "image",
+					"src": "https://github.com/user-attachments/assets/54fe45d7-dcf3-490a-a1df-9faa157ebe31",
+					"alt": "SU CS website hero section",
+					"caption": "Final hero section with cinematic background loop and glassmorphism styling."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Tech stack and architecture"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Framework: Next.js 16",
+						"Styling: Tailwind CSS",
+						"Component system: ShadCN UI",
+						"Internationalisation: next-intl (English, Afrikaans, isiXhosa)",
+						"Content layer: Drupal JSON:API integration prepared"
+					]
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Scope delivered"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Home, About, Research, Programmes, Contact, staff pages, and alumni/student information sections.",
+						"Undergraduate and postgraduate programme route structures.",
+						"Mobile-optimised layouts and transitions across all key templates."
+					]
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Highlights"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Glassmorphism UI system for consistent, modern visual identity.",
+						"Smooth section and page transitions for polished UX.",
+						"Full locale-aware routing and translation support for three languages.",
+						"SEO groundwork including sitemap, robots, and metadata strategy.",
+						"Interactive terminal easter egg with command simulation and CS-themed content."
+					]
+				},
+				{
+					"type": "image",
+					"src": "https://github.com/user-attachments/assets/4e5dadfe-342b-4f37-b8cf-64e19d37fcda",
+					"alt": "Interactive terminal easter egg",
+					"caption": "The hidden terminal experience designed for CS students."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Headless CMS status"
+				},
+				{
+					"type": "paragraph",
+					"text": "Drupal is configured as a headless CMS via JSON:API, and the integration layer for pulling module content is in place. During the hackathon timeline, content entry and multilingual Drupal management were the main bottlenecks, so translations currently remain in JSON files. The architecture is ready to switch fully to dynamic Drupal-backed content once data population is complete."
+				},
+				{
+					"type": "quote",
+					"text": "This was one of those projects where getting the design direction right up front made the entire build faster and more cohesive.",
+					"citation": "Project reflection"
+				}
+			]
+		}
+	},
+	{
+		"slug": "coco-blue-website",
+		"name": "Coco Blue Website",
+		"description": "A full e-commerce platform for Coco Blue, designed and built from scratch across frontend and backend.",
+		"github": null,
+		"link": "https://cocoblue.co.za/",
+		"year": "2025",
+		"date": "2025-01-21",
+		"starred": true,
+		"tags": [
+			"E-commerce Platform",
+			"Conversion UX",
+			"Payments & Checkout",
+			"End-to-End Delivery"
+		],
+		"caseStudy": {
+			"summary": "A long-running, founder-led e-commerce build that started in December 2024 and grew into a full platform across storefront and backend operations.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "I spent two months of my December 2024 holiday building the first major version of the Coco Blue platform. Since then, I have kept developing it and I am proud of how much of a full-scale project it has become."
+				},
+				{
+					"type": "paragraph",
+					"text": "Coco Blue needed more than a storefront. The goal was to create a platform that could handle branded product discovery, ordering, and day-to-day management workflows without constant technical overhead."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Core outcomes"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Introduced a structured product browsing and checkout flow.",
+						"Created backend APIs for inventory and order workflows.",
+						"Improved trust signals with stronger product and policy presentation."
+					]
+				},
+				{
+					"type": "image",
+					"src": "/assets/coco-blue-hero.webp",
+					"alt": "Coco Blue hero section",
+					"caption": "Coco Blue hero section presenting the brand and primary shopping journey."
+				},
+				{
+					"type": "image",
+					"src": "/assets/coco-blue-necklaces.webp",
+					"alt": "Coco Blue necklaces catalog page",
+					"caption": "Necklaces catalog page focused on clean product browsing and mobile-first shopping."
+				},
+				{
+					"type": "image",
+					"src": "/assets/coco-blue-dashboard.webp",
+					"alt": "Coco Blue backend categories management dashboard",
+					"caption": "Categories management interface in the backend dashboard."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "What comes next"
+				},
+				{
+					"type": "paragraph",
+					"text": "The next phase is evolving the backend into a multi-tenant platform so it can serve more South African businesses, with stronger operational tooling and scalable internal workflows."
+				}
+			]
+		}
+	},
+	{
+		"slug": "ticket-brew",
+		"name": "Ticket Brew",
+		"description": "A modern South African ticketing platform that gives organisers control over branding, fees, and operations.",
+		"github": null,
+		"link": "https://ticketbrew.co.za/",
+		"year": "2026",
+		"date": "2026-03-26",
+		"starred": true,
+		"tags": [
+			"Product Strategy",
+			"Marketplace UX",
+			"Startup Execution",
+			"Event Operations"
+		],
+		"caseStudy": {
+			"summary": "A launch-stage startup case study on fee control, mobile-first ticketing, and event operations for South African organisers.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Ticket Brew was built by an organiser who needed elegant digital tickets, branded event pages, and a checkout flow people would actually complete on mobile. The company is newly established and preparing for launch, with the product focused on practical tools for South African events."
+				},
+				{
+					"type": "image",
+					"src": "/assets/ticket-brew.webp",
+					"alt": "Ticket Brew hero screenshot",
+					"caption": "Ticket Brew homepage hero section."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "What the product is built around"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Pricing control from 0% to 100%, so organisers choose how checkout fees are split with buyers.",
+						"Branded event pages that reflect the event identity instead of generic marketplace templates.",
+						"Mobile-first checkout and WhatsApp ticket delivery for paid orders.",
+						"Fast door scanning, promoter tracking, and local South African payouts."
+					]
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Current stage"
+				},
+				{
+					"type": "paragraph",
+					"text": "Ticket Brew is in launch rollout. The immediate focus is polishing onboarding, validating early organiser workflows, and scaling reliable operations as the first wave of events goes live."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "Why this case study matters"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"It shows how a real organiser pain point became a focused product brief.",
+						"It demonstrates a clear differentiation strategy against fixed-fee incumbents.",
+						"It documents early company-building decisions while transitioning from build mode to launch."
+					]
+				}
+			]
+		}
+	},
+	{
+		"slug": "qr-quest",
+		"name": "QR Quest",
+		"description": "An MVP web app for creating interactive scavenger hunts using QR-driven game loops.",
+		"github": null,
+		"link": "https://qr-quest.jadenstock.com/",
+		"year": "2024",
+		"date": "2024-03-20",
+		"starred": true,
+		"tags": [
+			"MVP Development",
+			"Gamification",
+			"User Engagement",
+			"Rapid Prototyping"
+		],
+		"caseStudy": {
+			"summary": "A playful MVP focused on engagement loops and easy game authoring.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "QR Quest was built to test whether non-technical users could create engaging scavenger hunt experiences without custom development."
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"text": "MVP scope"
+				},
+				{
+					"type": "list",
+					"style": "unordered",
+					"items": [
+						"Create clues and route checkpoints.",
+						"Generate QR codes for physical locations.",
+						"Track progress and completion states."
+					]
+				}
+			]
+		}
+	},
+	{
+		"slug": "angel-paws-website",
+		"name": "Angel Paws Website",
+		"description": "A nonprofit website for Angel Paws Therapy Dogs with clearer storytelling and support pathways.",
+		"github": null,
+		"link": "https://angelpaws.org.za",
+		"year": "2023",
+		"date": "2023-04-23",
+		"starred": false,
+		"tags": [
+			"Nonprofit Storytelling",
+			"Donation Journey",
+			"Mobile-First UX",
+			"Trust & Credibility"
+		],
+		"caseStudy": {
+			"summary": "A mission-driven site refresh focused on trust and donation-readiness.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "For Angel Paws, clarity and empathy were key. The site had to explain impact quickly and make it easy for visitors to learn, volunteer, and contribute."
+				}
+			]
+		}
+	},
+	{
+		"slug": "gift-redeem-website",
+		"name": "Gift Redeem Website",
+		"description": "A creative seasonal web app for turning holiday gifts into interactive reveal experiences.",
+		"github": "https://github.com/jadenstockk/newyear",
+		"link": "https://redeem.jadenstock.com",
+		"year": "2022",
+		"date": "2022-12-25",
+		"starred": false,
+		"tags": [
+			"Interactive Experience",
+			"Seasonal Campaign",
+			"Personalization",
+			"Frontend Craft"
+		],
+		"caseStudy": {
+			"summary": "A fun personal build combining narrative and simple interaction mechanics.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "This experiment explored how small product touches can make a simple gift exchange feel more memorable and personal."
+				}
+			]
+		}
+	},
+	{
+		"slug": "new-year-bot",
+		"name": "New Year Bot",
+		"description": "A Discord bot with celebration-focused features including countdown and community event interactions.",
+		"github": "https://github.com/jadenstockk/newyear",
+		"link": "https://newyearbot.weebly.com",
+		"year": "2022",
+		"date": "2022-12-15",
+		"starred": false,
+		"tags": [
+			"Community Product",
+			"Automation",
+			"Real-Time Events",
+			"Feature Iteration"
+		],
+		"caseStudy": {
+			"summary": "An early community bot project that grew through iterative feature releases.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "This bot was a practical way to learn API integrations, command systems, and long-lived event handling in Discord communities."
+				}
+			]
+		}
+	},
+	{
+		"slug": "portfolio-website",
+		"name": "Portfolio Website",
+		"description": "The personal website for showcasing projects, writing, and ongoing experiments.",
+		"github": "https://github.com/jadenstockk/portfolio-website",
+		"link": "https://jadenstock.com",
+		"year": "2022",
+		"date": "2022-09-01",
+		"starred": false,
+		"tags": [
+			"Personal Brand",
+			"Case Study Design",
+			"Frontend Engineering",
+			"Content Strategy"
+		],
+		"caseStudy": {
+			"summary": "A continuously evolving personal platform and technical playground.",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "This site is where design direction, frontend architecture, and writing style all converge. Every iteration becomes a testing ground for the next one."
+				}
+			]
+		}
+	}
+]

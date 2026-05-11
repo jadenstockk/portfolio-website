@@ -8,10 +8,15 @@
   z-index: 10001;
 }
 
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav-items {
   display: flex;
   flex-direction: row;
-  margin: auto;
   padding: 30px;
 }
 
@@ -30,8 +35,36 @@
   color: var(--orange);
 }
 
+.nav-linkedin {
+  margin-right: 30px;
+  padding: 10px 16px;
+  font-size: 13px;
+}
+
 @media screen and (max-width: 1000px) {
+  .nav-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .nav-items {
     margin: auto;
+    padding-bottom: 12px;
+  }
+
+  .nav-linkedin {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-items {
+    padding: 20px 8px 10px;
+  }
+
+  .nav-item {
+    margin: 0 8px;
+    font-size: 12px;
   }
 }
