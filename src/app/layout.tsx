@@ -25,6 +25,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
+				<script
+					defer
+					src="https://metrics.puddle.co.za/script.js"
+					data-website-id={"df989e35-26db-4cb1-bcb9-bdf4dacf077d"}
+				></script>
 				<Navbar />
 				{children}
 				<Footer />
