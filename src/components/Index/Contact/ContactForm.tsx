@@ -25,7 +25,6 @@ export default function ContactForm() {
 
   const onSubmit = async (data: ContactFormData) => {
     setResult("Sending...");
-    trackUmami("contact_submit_attempt");
     const formData = new FormData();
 
     Object.entries(data).forEach(([key, value]) => formData.append(key, value));
@@ -82,7 +81,6 @@ export default function ContactForm() {
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="contact-form column"
-        data-analytics-form="contact_form"
         style={{
           width: "100%",
           maxWidth: "600px",
@@ -156,8 +154,6 @@ export default function ContactForm() {
         <button
           type="submit"
           className="btn"
-          data-analytics-event="contact_form_submit_click"
-          data-analytics-label="web3forms_submit"
           style={{ cursor: "pointer", marginTop: "30px" }}
         >
           Send it!
@@ -171,8 +167,6 @@ export default function ContactForm() {
         <div style={{ display: "flex", marginLeft: "auto", marginRight: "auto" }}>
           <a
             href="mailto:jaden@jadenstock.com"
-            data-analytics-event="contact_link_click"
-            data-analytics-label="contact_form_email_link"
             style={{ color: "white", display: "flex", alignItems: "center", marginTop: "0", gap: "8px" }}
           >
             <IconMail /> jaden@jadenstock.com

@@ -8,8 +8,6 @@ export default function Footer() {
           href="https://www.linkedin.com/in/jadenstock/"
           target="_blank"
           rel="noopener noreferrer"
-          data-analytics-event="footer_link_click"
-          data-analytics-label="footer_linkedin"
         >
           <img className="footer-icon" src="/assets/linkedin.svg" alt="" />
         </a>
@@ -17,8 +15,6 @@ export default function Footer() {
           href="https://github.com/jadenstockk"
           target="_blank"
           rel="noopener noreferrer"
-          data-analytics-event="footer_link_click"
-          data-analytics-label="footer_github"
         >
           <img className="footer-icon" src="/assets/github.svg" alt="" />
         </a>

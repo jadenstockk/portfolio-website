@@ -8,8 +8,6 @@ export default function Navbar() {
 					<a
 						className="nav-item fade-up"
 						href="/#about"
-						data-analytics-event="nav_click"
-						data-analytics-label="about"
 						style={{ animationDelay: "50ms" }}
 					>
 						<span className="nav-item-number">01.</span> About
@@ -17,8 +15,6 @@ export default function Navbar() {
 					<a
 						className="nav-item fade-up"
 						href="/#projects"
-						data-analytics-event="nav_click"
-						data-analytics-label="projects"
 						style={{ animationDelay: "150ms" }}
 					>
 						<span className="nav-item-number">02.</span> Projects
@@ -26,8 +22,6 @@ export default function Navbar() {
 					<a
 						className="nav-item fade-up"
 						href="/#contact"
-						data-analytics-event="nav_click"
-						data-analytics-label="contact"
 						style={{ animationDelay: "200ms" }}
 					>
 						<span className="nav-item-number">03.</span> Contact

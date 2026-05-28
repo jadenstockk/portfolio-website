@@ -24,8 +24,6 @@ export default function Contact() {
 					<a
 						href="mailto:jaden@jadenstock.com"
 						className="btn"
-						data-analytics-event="contact_link_click"
-						data-analytics-label="contact_email"
 					>
 						<span
 							style={{
@@ -43,8 +41,6 @@ export default function Contact() {
 						target="_blank"
 						rel="noreferrer noopener"
 						className="btn"
-						data-analytics-event="contact_link_click"
-						data-analytics-label="contact_linkedin"
 					>
 						<span
 							style={{
@@ -62,8 +58,6 @@ export default function Contact() {
 						target="_blank"
 						rel="noreferrer noopener"
 						className="btn"
-						data-analytics-event="contact_link_click"
-						data-analytics-label="contact_github"
 					>
 						<span
 							style={{
