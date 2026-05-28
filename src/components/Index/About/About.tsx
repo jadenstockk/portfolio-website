@@ -8,7 +8,7 @@ export default function About() {
 
         <p className="description-1">
           I'm a full-stack developer with 5+ years of experience, a founder, and a
-          freelancer — all with a focus on the South African market. I've built and
+          freelancer - all with a focus on the South African market. I've built and
           scaled a custom e-commerce platform that handles thousands of customers and
           orders, powering websites like{" "}
           <a href="https://cocoblue.co.za" target="_blank" rel="noopener noreferrer">
@@ -26,7 +26,7 @@ export default function About() {
         </p>
 
         <p className="description-1">
-          Leadership has always been a thread through my life — from serving as Head
+          Leadership has always been a thread through my life from serving as Head
           Boy in high school, to mentoring students at Metanoia Residence,
           Stellenbosch University. I care about the people I collaborate with as much
           as the problems we're solving together.
