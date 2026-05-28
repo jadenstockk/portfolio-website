@@ -6,19 +6,36 @@ export default function About() {
           <span className="section-number">01.</span> About Me
         </h2>
         <p className="description-1">
-          I am a skilled full-stack developer with over 5 years of experience in JavaScript and TypeScript,
-          specializing in building dynamic and scalable web applications with Next.js, React, and Node.js. My
-          expertise extends to database technologies like Postgres as well as MongoDB, and I am proficient with
-          version control tools such as Git. I am passionate about clean UI design and continually seek opportunities
-          to expand my technical knowledge through hands-on projects.
-        </p>
-        <p className="description-1">
-          Beyond development, I have a deep-rooted passion for music. With over 12 years of piano experience and a
-          background in music production and audio engineering, I’ve combined creativity with technical skill. My
-          journey began with DJ-ing and producing music, eventually sparking my interest in programming and web
-          development. This unique blend of skills drives me to innovate and create meaningful solutions in both tech
-          and music.
-        </p>
+  I'm a full-stack developer with 5+ years of experience building dynamic,
+  scalable web applications using TypeScript, Next.js, React, and Node.js —
+  with solid foundations in relational databases, scaling backend systems, and frontend UI design.
+  I'm someone who genuinely loves to build things. I'm
+  currently deepening my knowledge in DevOps, cybersecurity, and compliance,
+  always looking for ways to build more robust systems.
+</p>
+
+<p className="description-1">
+  I've taken that passion from side projects all the way to production. As
+  the founder of <strong>Ticket Brew</strong>, I've built and scaled a
+  full e-commerce platform serving thousands of customers and hundreds of
+  orders — navigating the real challenges of the South African market
+  firsthand. More is on the way with <strong>Puddle</strong> (puddle.co.za).
+  Alongside that, I take on freelance work, helping clients bring their
+  ideas to life on the web.
+</p>
+
+<p className="description-1">
+  Leadership has always been a thread through my life — from serving as
+  Head Boy in high school, to mentoring students as part of Metanoia
+  Residence at Stellenbosch University. I care about collaborating with the people around me
+  as much as the problems I'm solving.
+</p>
+
+<p className="description-1">
+  When I'm not building web apps, I'm usually at the piano, on the tennis court, out on a hike, or
+  in the gym. My path into tech actually started through video and music
+  production so my roots come from a more creative space which I think translates into the design aspects of my projects.
+</p>
       </div>
     </section>
   );
