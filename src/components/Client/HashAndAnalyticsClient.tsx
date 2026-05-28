@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import ReactGA from "react-ga";
 
 type UmamiPayload = Record<string, string | number | boolean>;
@@ -45,7 +45,6 @@ function getReadableLabel(element: Element) {
 
 export default function HashAndAnalyticsClient() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     if (!analyticsInitialized) {
@@ -53,7 +52,7 @@ export default function HashAndAnalyticsClient() {
       analyticsInitialized = true;
     }
 
-    const query = searchParams?.toString() ?? "";
+    const query = window.location.search.replace(/^\?/, "");
     const pathWithQuery = query ? `${pathname}?${query}` : pathname;
     ReactGA.pageview(pathWithQuery);
     trackUmami("page_view", {
@@ -70,7 +69,7 @@ export default function HashAndAnalyticsClient() {
         trackUmami("hash_nav", { target: id, path: pathname });
       }
     }
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   useEffect(() => {
     const seenSections = new Set<string>();
