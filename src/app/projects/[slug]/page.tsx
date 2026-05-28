@@ -36,12 +36,26 @@ export default async function ProjectCaseStudyPage({
 
 					<div className="case-study-links">
 						{project.link ? (
-							<a href={project.link} target="_blank" rel="noreferrer noopener" className="btn">
+							<a
+								href={project.link}
+								target="_blank"
+								rel="noreferrer noopener"
+								className="btn"
+								data-analytics-event="case_study_link_click"
+								data-analytics-label={`${project.name}_visit_website`}
+							>
 								Visit website
 							</a>
 						) : null}
 						{project.github ? (
-							<a href={project.github} target="_blank" rel="noreferrer noopener" className="btn">
+							<a
+								href={project.github}
+								target="_blank"
+								rel="noreferrer noopener"
+								className="btn"
+								data-analytics-event="case_study_link_click"
+								data-analytics-label={`${project.name}_view_source`}
+							>
 								View source
 							</a>
 						) : null}

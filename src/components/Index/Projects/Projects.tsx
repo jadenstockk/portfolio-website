@@ -53,6 +53,8 @@ export default function Projects() {
 										href={destination.href}
 										target="_blank"
 										rel="noreferrer noopener"
+										data-analytics-event="featured_project_click"
+										data-analytics-label={project.name}
 										key={`${project.name}-${index}`}
 									>
 										{content}
@@ -61,13 +63,23 @@ export default function Projects() {
 							}
 
 							return (
-								<a href={destination.href} key={`${project.name}-${index}`}>
+								<a
+									href={destination.href}
+									data-analytics-event="featured_project_click"
+									data-analytics-label={project.name}
+									key={`${project.name}-${index}`}
+								>
 									{content}
 								</a>
 							)
 						})}
 					</div>
-					<a href="/projects" className="btn">
+					<a
+						href="/projects"
+						className="btn"
+						data-analytics-event="projects_view_all_click"
+						data-analytics-label="projects_archive"
+					>
 						View all
 					</a>
 				</div>

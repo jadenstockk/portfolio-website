@@ -65,6 +65,8 @@ export default function Archive() {
 												<a
 													href={`/projects/${getProjectSlug(project)}`}
 													className="link"
+													data-analytics-event="archive_case_study_click"
+													data-analytics-label={project.name}
 												>
 													Read
 												</a>
@@ -74,6 +76,8 @@ export default function Archive() {
 													target="_blank"
 													rel="noreferrer noopener"
 													className="link"
+													data-analytics-event="archive_visit_click"
+													data-analytics-label={project.name}
 												>
 													Visit
 												</a>
@@ -88,6 +92,8 @@ export default function Archive() {
 													target="_blank"
 													rel="noreferrer noopener"
 													style={{ marginRight: "10px" }}
+													data-analytics-event="archive_github_click"
+													data-analytics-label={project.name}
 												>
 													<img width="18px" src="/assets/github.svg" alt="" />
 												</a>
@@ -97,6 +103,8 @@ export default function Archive() {
 													href={project.link}
 													target="_blank"
 													rel="noreferrer noopener"
+													data-analytics-event="archive_live_click"
+													data-analytics-label={project.name}
 												>
 													<img
 														width="15px"

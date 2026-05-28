@@ -1,3 +1,4 @@
+import HashAndAnalyticsClient from "@/components/Client/HashAndAnalyticsClient"
 import Footer from "@/components/Footer/Footer"
 import Navbar from "@/components/Navbar/Navbar"
 import type { Metadata } from "next"
@@ -30,6 +31,7 @@ export default function RootLayout({
 					src="https://metrics.puddle.co.za/script.js"
 					data-website-id={"df989e35-26db-4cb1-bcb9-bdf4dacf077d"}
 				></script>
+				<HashAndAnalyticsClient />
 				<Navbar />
 				{children}
 				<Footer />

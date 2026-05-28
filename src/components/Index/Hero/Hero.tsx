@@ -38,6 +38,8 @@ export default function Hero() {
 						className="btn fade-up"
 						style={{ animationDelay: "600ms" }}
 						href="/#projects"
+						data-analytics-event="hero_cta_click"
+						data-analytics-label="view_recent_projects"
 					>
 						View Recent Projects
 					</a>
@@ -45,6 +47,8 @@ export default function Hero() {
 						className="btn fade-up"
 						style={{ animationDelay: "700ms" }}
 						href="mailto:jaden@jadenstock.com?subject=Project%20Inquiry&body=Hi%20Jaden%2C%0A%0AI%20would%20like%20to%20talk%20about%20a%20project."
+						data-analytics-event="hero_cta_click"
+						data-analytics-label="hero_get_in_touch"
 					>
 						Get in Touch
 					</a>

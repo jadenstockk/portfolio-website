@@ -10,6 +10,10 @@ type ContactFormData = {
   message: string;
 };
 
+function trackUmami(eventName: string, data?: Record<string, string>) {
+  window.umami?.track?.(eventName, data);
+}
+
 export default function ContactForm() {
   const {
     register,
@@ -21,24 +25,33 @@ export default function ContactForm() {
 
   const onSubmit = async (data: ContactFormData) => {
     setResult("Sending...");
+    trackUmami("contact_submit_attempt");
     const formData = new FormData();
 
     Object.entries(data).forEach(([key, value]) => formData.append(key, value));
     formData.append("access_key", "7e7eead5-173e-4c43-abbc-c231fc4cc290");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
 
-    const resultData = await response.json();
+      const resultData = await response.json();
 
-    if (resultData.success) {
-      setResult("Form Submitted Successfully!");
-      reset();
-    } else {
-      console.error("Error", resultData);
-      setResult(resultData.message);
+      if (resultData.success) {
+        trackUmami("contact_submit_result", { status: "success" });
+        setResult("Form Submitted Successfully!");
+        reset();
+      } else {
+        trackUmami("contact_submit_result", { status: "failed" });
+        console.error("Error", resultData);
+        setResult(resultData.message);
+      }
+    } catch (error) {
+      trackUmami("contact_submit_result", { status: "network_error" });
+      console.error("Error", error);
+      setResult("Something went wrong while sending your message.");
     }
   };
 
@@ -69,6 +82,7 @@ export default function ContactForm() {
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="contact-form column"
+        data-analytics-form="contact_form"
         style={{
           width: "100%",
           maxWidth: "600px",
@@ -139,7 +153,13 @@ export default function ContactForm() {
         ></textarea>
         {errors.message && <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>{errors.message.message}</p>}
 
-        <button type="submit" className="btn" style={{ cursor: "pointer", marginTop: "30px" }}>
+        <button
+          type="submit"
+          className="btn"
+          data-analytics-event="contact_form_submit_click"
+          data-analytics-label="web3forms_submit"
+          style={{ cursor: "pointer", marginTop: "30px" }}
+        >
           Send it!
         </button>
       </form>
@@ -151,6 +171,8 @@ export default function ContactForm() {
         <div style={{ display: "flex", marginLeft: "auto", marginRight: "auto" }}>
           <a
             href="mailto:jaden@jadenstock.com"
+            data-analytics-event="contact_link_click"
+            data-analytics-label="contact_form_email_link"
             style={{ color: "white", display: "flex", alignItems: "center", marginTop: "0", gap: "8px" }}
           >
             <IconMail /> jaden@jadenstock.com
