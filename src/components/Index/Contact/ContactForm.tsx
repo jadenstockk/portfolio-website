@@ -70,7 +70,8 @@ export default function ContactForm() {
       >
         <h3 style={{ marginBottom: "10px" }}>Thank you for reaching out!</h3>
         <p style={{ marginTop: "0" }}>
-          Your message has been sent and I will make sure to be in touch as soon as possible.
+          Your message has been sent and I will make sure to be in touch as soon
+          as possible.
         </p>
       </div>
     );
@@ -106,12 +107,19 @@ export default function ContactForm() {
             outline: "none",
           }}
         />
-        {errors.name && <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>{errors.name.message}</p>}
+        {errors.name && (
+          <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>
+            {errors.name.message}
+          </p>
+        )}
 
         <input
           {...register("email", {
             required: "Email is required",
-            pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: "Invalid email address" },
+            pattern: {
+              value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+              message: "Invalid email address",
+            },
           })}
           placeholder="Your Email"
           required
@@ -128,7 +136,11 @@ export default function ContactForm() {
             outline: "none",
           }}
         />
-        {errors.email && <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>{errors.email.message}</p>}
+        {errors.email && (
+          <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>
+            {errors.email.message}
+          </p>
+        )}
 
         <textarea
           {...register("message", { required: "Message is required" })}
@@ -149,7 +161,11 @@ export default function ContactForm() {
             height: "150px",
           }}
         ></textarea>
-        {errors.message && <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>{errors.message.message}</p>}
+        {errors.message && (
+          <p style={{ color: "lightcoral", margin: "2px 0 10px" }}>
+            {errors.message.message}
+          </p>
+        )}
 
         <button
           type="submit"
@@ -160,14 +176,29 @@ export default function ContactForm() {
         </button>
       </form>
       <span className="result-message">{result}</span>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1rem", marginTop: "30px" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "1rem",
+          marginTop: "30px",
+        }}
+      >
         <p className="description-1" style={{ marginBottom: "-10px" }}>
           You can also reach out to me directly at
         </p>
-        <div style={{ display: "flex", marginLeft: "auto", marginRight: "auto" }}>
+        <div
+          style={{ display: "flex", marginLeft: "auto", marginRight: "auto" }}
+        >
           <a
             href="mailto:jaden@jadenstock.com"
-            style={{ color: "white", display: "flex", alignItems: "center", marginTop: "0", gap: "8px" }}
+            style={{
+              color: "white",
+              display: "flex",
+              alignItems: "center",
+              marginTop: "0",
+              gap: "8px",
+            }}
           >
             <IconMail /> jaden@jadenstock.com
           </a>

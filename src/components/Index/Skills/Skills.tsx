@@ -1,6 +1,10 @@
 export default function Skills() {
   return (
-    <section id="skills" className="fade-up" style={{ animationDelay: "700ms" }}>
+    <section
+      id="skills"
+      className="fade-up"
+      style={{ animationDelay: "700ms" }}
+    >
       <div className="wrapper">
         <h2 className="medium-heading-1">
           <span className="section-number">02.</span> My Skills
@@ -18,7 +22,8 @@ export default function Skills() {
             </div>
             <div className="skill-item">TailwindCSS</div>
             <div className="skill-item">
-              HTML &amp; CSS <span style={{ fontSize: "14px" }}>(obviously!)</span>
+              HTML &amp; CSS{" "}
+              <span style={{ fontSize: "14px" }}>(obviously!)</span>
             </div>
             <div className="skill-item">Design in Figma</div>
           </div>
@@ -36,9 +41,12 @@ export default function Skills() {
             <h3>Other</h3>
             <div className="skill-item">Grade 7 Trinity Piano</div>
             <div className="skill-item">School Level Music Theory</div>
-            <div className="skill-item">Music Production in Logic Pro X and Abelton Live</div>
             <div className="skill-item">
-              Video Editing in Adobe Premiere Pro, Adobe After Effects, and DaVinci Resolve
+              Music Production in Logic Pro X and Abelton Live
+            </div>
+            <div className="skill-item">
+              Video Editing in Adobe Premiere Pro, Adobe After Effects, and
+              DaVinci Resolve
             </div>
           </div>
         </div>

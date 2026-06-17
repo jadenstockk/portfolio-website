@@ -1,59 +1,70 @@
 export default function Hero() {
-	return (
-		<section id="hero">
-			<div className="wrapper">
-				<h3
-					className="small-heading-1 fade-up"
-					style={{ animationDelay: "200ms" }}
-				>
-					Hello, my name is
-				</h3>
+  return (
+    <section id="hero">
+      <div className="wrapper">
+        <h3
+          className="small-heading-1 fade-up"
+          style={{ animationDelay: "200ms" }}
+        >
+          Hello, my name is
+        </h3>
 
-				<div className="face-name fade-up" style={{ animationDelay: "300ms" }}>
-					<img
-						src="/assets/jaden-blue-shirt-cricle-white.png"
-						alt="Portrait of Jaden Stock"
-					/>
-					<h2 className="big-heading-1">Jaden Stock</h2>
-				</div>
+        <div className="face-name fade-up" style={{ animationDelay: "300ms" }}>
+          <img
+            src="/assets/jaden-blue-shirt-cricle-white.png"
+            alt="Portrait of Jaden Stock"
+          />
+          <h2 className="big-heading-1">Jaden Stock</h2>
+        </div>
 
-				<h2
-					className="big-heading-2 fade-up"
-					style={{ animationDelay: "400ms" }}
-				>
-					I build web experiences
-				</h2>
+        <h2
+          className="big-heading-2 fade-up"
+          style={{ animationDelay: "400ms" }}
+        >
+          I build web experiences
+        </h2>
 
-				<p
-					className="description-1 fade-up"
-					style={{ animationDelay: "500ms" }}
-				>
-					With over five years of experience, I transform ideas into polished,
-					reliable websites that support business growth. Let’s work together to
-					build a solution you can be proud of.
-				</p>
+        <p
+          className="description-1 fade-up"
+          style={{ animationDelay: "500ms" }}
+        >
+          With over five years of experience, I transform ideas into polished,
+          reliable websites that support business growth. Let’s work together to
+          build a solution you can be proud of.
+        </p>
 
-				<div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-					<a
-						className="btn fade-up"
-						style={{ animationDelay: "600ms" }}
-						href="/#projects"
-						data-analytics-event="hero_cta_click"
-						data-analytics-label="view_recent_projects"
-					>
-						View Recent Projects
-					</a>
-					<a
-						className="btn fade-up"
-						style={{ animationDelay: "700ms" }}
-						href="mailto:jaden@jadenstock.com?subject=Project%20Inquiry&body=Hi%20Jaden%2C%0A%0AI%20would%20like%20to%20talk%20about%20a%20project."
-						data-analytics-event="hero_cta_click"
-						data-analytics-label="hero_get_in_touch"
-					>
-						Get in Touch
-					</a>
-				</div>
-			</div>
-		</section>
-	)
+        <div className="hero-buttons">
+          <a
+            className="btn fade-up"
+            style={{ animationDelay: "600ms" }}
+            href="/#projects"
+            data-analytics-event="hero_cta_click"
+            data-analytics-label="view_recent_projects"
+          >
+            View Recent Projects
+          </a>
+          <a
+            className="btn fade-up"
+            style={{ animationDelay: "700ms" }}
+            href="mailto:jaden@jadenstock.com?subject=Project%20Inquiry&body=Hi%20Jaden%2C%0A%0AI%20would%20like%20to%20talk%20about%20a%20project."
+            data-analytics-event="hero_cta_click"
+            data-analytics-label="hero_get_in_touch"
+          >
+            Get in Touch
+          </a>
+          <a
+            className="btn fade-up"
+            style={{ animationDelay: "800ms" }}
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-analytics-event="hero_cta_click"
+            data-analytics-label="view_resume"
+          >
+            View Resume
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }

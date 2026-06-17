@@ -38,7 +38,9 @@ function getReadableLabel(element: Element) {
     return title;
   }
 
-  return element.textContent?.replace(/\s+/g, " ").trim().slice(0, 120) || "unknown";
+  return (
+    element.textContent?.replace(/\s+/g, " ").trim().slice(0, 120) || "unknown"
+  );
 }
 
 export default function HashAndAnalyticsClient() {
@@ -70,7 +72,9 @@ export default function HashAndAnalyticsClient() {
         return;
       }
 
-      const trackedElement = target.closest<HTMLElement>("[data-analytics-event]");
+      const trackedElement = target.closest<HTMLElement>(
+        "[data-analytics-event]",
+      );
       if (!trackedElement) {
         return;
       }
