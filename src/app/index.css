@@ -175,23 +175,8 @@
 }
 
 @media screen and (max-width: 750px) {
-  #hero .wrapper {
-    align-items: center;
-    text-align: center;
-  }
-
-  #hero .description-1 {
-    margin-inline: auto;
-  }
-
-  .face-name {
-    justify-content: center;
-  }
-
   .hero-buttons {
     flex-direction: column;
-    width: 100%;
-    align-items: center;
   }
 
   .projects-container {
