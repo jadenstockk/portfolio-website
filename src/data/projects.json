@@ -138,6 +138,13 @@
 					"text": "I handled the digital setup work so Nicky could stay focused on coaching, client relationships, and growing the business. That meant building a site that clearly explains what she offers while also giving her a reliable foundation online."
 				},
 				{
+					"type": "image",
+					"src": "/assets/inner-reset-collective-case-study.webp",
+					"alt": "Inner Reset Collective website screenshot",
+					"caption": "Homepage view for Inner Reset Collective."
+				},
+
+				{
 					"type": "heading",
 					"level": 2,
 					"text": "Project goals"
